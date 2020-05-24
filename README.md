@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/tabone/use-dom-id.svg?token=ZxnqkSNDAcymC82qBSVp&branch=master)](https://travis-ci.com/tabone/use-dom-id)
+
 # useDOMID
 
 React hook for using a unique HTML DOM ID.
@@ -25,5 +27,3 @@ const id = useDOMID('select')
 ```
 
 ![image](https://user-images.githubusercontent.com/5364897/82748965-466e7f00-9da6-11ea-8638-ddd7e1bfa147.png)
-
-
