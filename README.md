@@ -21,5 +21,9 @@ yarn add use-dom-id
 ```javascript
 const useDOMID from 'use-dom-id'
 
-const id = useDOMID('username')
+const id = useDOMID('select')
 ```
+
+![image](https://user-images.githubusercontent.com/5364897/82748965-466e7f00-9da6-11ea-8638-ddd7e1bfa147.png)
+
+
