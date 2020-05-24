@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/tabone/use-dom-id.svg?token=ZxnqkSNDAcymC82qBSVp&branch=master)](https://travis-ci.com/tabone/use-dom-id)
+[![Build Status](https://travis-ci.org/tabone/use-dom-id.svg?branch=master)](https://travis-ci.org/tabone/use-dom-id)
 
 # useDOMID
 
