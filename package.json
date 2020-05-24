@@ -4,6 +4,7 @@
   "description": "React hook for using a unique DOM ID",
   "main": "dist/main.js",
   "scripts": {
+    "test": "jest",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -30,8 +31,12 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "@testing-library/react-hooks": "^3.2.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
+    "jest": "^26.0.1",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
     "standard": "^14.3.4",
     "standard-loader": "^7.0.0",
     "webpack": "^4.43.0",
