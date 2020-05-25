@@ -14,8 +14,6 @@
 
 </div>
 
-<br />
-
 <hr />
 
 [![Build Status](https://travis-ci.org/tabone/use-dom-id.svg?branch=master)](https://travis-ci.org/tabone/use-dom-id)
