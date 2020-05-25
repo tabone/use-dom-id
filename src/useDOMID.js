@@ -1,7 +1,7 @@
 import React from 'react'
 import IDContext from './IDContext'
 
-export default function useDOMID (namespace) {
+export default function useDOMID (namespace = 'app') {
   const [id, setID] = React.useState(null)
   const { getID, clearID } = React.useContext(IDContext)
 

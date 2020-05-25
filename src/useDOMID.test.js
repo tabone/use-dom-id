@@ -53,4 +53,13 @@ describe('useDOMID tests', () => {
 
       expect(resultTwo.current).toBe('namespace-one-1000000')
   })
+
+  it('should default namespace to `app`', () => {
+    Math.random.mockReturnValueOnce(1)
+
+    const { result } = renderHook(() => useDOMID())
+
+    expect(Math.random).toHaveBeenCalledTimes(1)
+    expect(result.current).toBe('app-1000000')
+  })
 })
