@@ -12,13 +12,15 @@
 
 <p>React hook for using a unique DOM ID</p>
 
+[![Build Status](https://travis-ci.org/tabone/use-dom-id.svg?branch=master)](https://travis-ci.org/tabone/use-dom-id)
+[![codecov](https://codecov.io/gh/tabone/use-dom-id/branch/master/graph/badge.svg)](https://codecov.io/gh/tabone/use-dom-id)
+[![npm version](https://badge.fury.io/js/use-dom-id.svg)](https://badge.fury.io/js/use-dom-id)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 </div>
 
 <hr />
 
-[![Build Status](https://travis-ci.org/tabone/use-dom-id.svg?branch=master)](https://travis-ci.org/tabone/use-dom-id)
-[![npm version](https://badge.fury.io/js/use-dom-id.svg)](https://badge.fury.io/js/use-dom-id)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Install
 
