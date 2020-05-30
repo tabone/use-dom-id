@@ -7,32 +7,28 @@ module.exports = {
   },
   externals: {
     react: {
-      commonjs: "react",
-      commonjs2: "react",
-      amd: "react",
-      root: "React"
+      commonjs: 'react',
+      commonjs2: 'react',
+      amd: 'react',
+      root: 'React'
     }
   },
   module: {
     rules: [
       {
-        enforce: 'pre',
-        test: /\.jsx?$/,
-        loader: 'standard-loader',
-        exclude: /(node_modules|bower_components)/,
-        options: {
-          parser: 'babel-eslint'
-        }
-      },
-      {
         test: /\.m?js$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env', '@babel/preset-react']
           }
         }
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader'
       }
     ]
   }
